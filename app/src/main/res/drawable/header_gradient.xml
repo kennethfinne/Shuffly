@@ -1,8 +1,0 @@
-<!-- header_gradient.xml -->
-<shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <gradient
-        android:angle="135"
-        android:startColor="@color/header_gradient_end"
-        android:endColor="@color/header_gradient_end"
-        android:type="linear" />
-</shape>

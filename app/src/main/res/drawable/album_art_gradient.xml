@@ -1,9 +1,0 @@
-<!-- album_art_gradient.xml -->
-<shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <gradient
-        android:angle="135"
-        android:startColor="@color/album_gradient_start"
-        android:endColor="@color/album_gradient_end"
-        android:type="linear" />
-    <corners android:radius="6dp" />
-</shape>
