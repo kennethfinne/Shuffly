@@ -1,0 +1,35 @@
+// List of things to make/improve/chance/etc.
+//
+// ShuffleMix (TODO: change that name)
+// 1) Button that opens the playlist menu
+// 2) Recently used; Two playlists and name (?)
+// 3) Larger area for viewing selected playlists?
+// 4)
+// 5)
+//
+// MakeMix (TODO: change that name also...)
+// 1) not sure...
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+
+
+
+
+
+
+

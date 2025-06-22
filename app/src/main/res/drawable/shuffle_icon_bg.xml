@@ -1,0 +1,9 @@
+<!-- shuffle_icon_bg.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:angle="135"
+        android:startColor="@color/shuffle_gradient_start"
+        android:endColor="@color/shuffle_gradient_end"
+        android:type="linear" />
+    <corners android:radius="16dp" />
+</shape>

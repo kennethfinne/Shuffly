@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shuffly</string>
+
+    <!-- Header -->
+    <string name="header_title">Create Epic Playlists</string>
+    <string name="header_subtitle">Personalized running mixes made simple</string>
+
+    <!-- Feature Cards -->
+    <string name="shuffle_mix_title">ShuffleMix</string>
+    <string name="shuffle_mix_description">Blend two playlists perfectly - alternating tracks for the ultimate mix</string>
+
+    <string name="make_mix_title">MakeMix</string>
+    <string name="make_mix_description">AI-powered workout playlists based on your preferences and BPM</string>
+
+    <!-- Placeholder Card -->
+    <string name="coming_soon_title">More Features Coming</string>
+    <string name="coming_soon_description">We\'re working on exciting new ways to enhance your music experience</string>
+
+    <!-- Now Playing -->
+    <string name="track_name">Thunder</string>
+    <string name="artist_name">Imagine Dragons</string>
+
+    <!-- Content Descriptions -->
+    <string name="shuffle_icon_desc">Shuffle Icon</string>
+    <string name="make_icon_desc">Make Icon</string>
+    <string name="liked_desc">Liked</string>
+    <string name="shuffle_desc">Shuffle</string>
+    <string name="previous_desc">Previous</string>
+    <string name="play_pause_desc">Play/Pause</string>
+    <string name="next_desc">Next</string>
+    <string name="like_desc">Like</string>
+</resources>

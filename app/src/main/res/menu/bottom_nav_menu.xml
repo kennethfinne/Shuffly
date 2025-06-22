@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_shuffle"
+        android:title="Hjem" />
+    <item
+        android:id="@+id/nav_search"
+        android:icon="@drawable/ic_shuffleswap"
+        android:title="Søk" />
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_spotify"
+        android:title="Profil" />
+</menu>
