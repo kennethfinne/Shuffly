@@ -1,12 +1,10 @@
 package com.kfinne.shuffleswap
 
-import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
-import androidx.activity.result.launch
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
@@ -14,7 +12,7 @@ class MainActivity : AppCompatActivity() {
     private var accessToken: String? = null
 
     // Request code for auth activity
-    private val AUTH_REQUEST_CODE = 1001
+    // private val AUTH_REQUEST_CODE = 1001
 
     // 1. Register the ActivityResultLauncher
     private lateinit var authActivityLauncher: ActivityResultLauncher<Intent>
@@ -28,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         authActivityLauncher = registerForActivityResult(
             ActivityResultContracts.StartActivityForResult() // Prebuilt contract
         ) { result -> // This is your callback for the result
-            if (result.resultCode == Activity.RESULT_OK) {
+            if (result.resultCode == RESULT_OK) {
                 val data: Intent? = result.data
                 val token = data?.getStringExtra("ACCESS_TOKEN")
                 if (token != null) {
@@ -38,7 +36,7 @@ class MainActivity : AppCompatActivity() {
                     showAuthError("No access token received")
                     finish()
                 }
-            } else if (result.resultCode == Activity.RESULT_CANCELED) {
+            } else if (result.resultCode == RESULT_CANCELED) {
                 val data: Intent? = result.data
                 val error = data?.getStringExtra("AUTH_ERROR")
                 if (error != null) {
